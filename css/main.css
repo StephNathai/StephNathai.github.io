@@ -16,6 +16,7 @@ nav ul li, footer ul li {
  
 }
 a {
+    border-top: 2px solid #d5d5d5;
     text-decoration: none;
     color: #999;
 

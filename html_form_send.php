@@ -1,3 +1,5 @@
+<!-- http://www.freecontactform.com/html_form.php -->
+
 <?php
 if(isset($_POST['email'])) {
      

@@ -1,7 +1,6 @@
 body {
 	margin: 40px;
 	width: 70%;
-	text-align:center;
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
@@ -13,7 +12,7 @@ nav ul, footer ul {
 }
 nav ul li, footer ul li {
     display: inline;
-    margin-right: 50px;
+    margin-right: 70px;
     
 }
 a {

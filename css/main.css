@@ -12,12 +12,13 @@ nav ul, footer ul {
 }
 nav ul li, footer ul li {
     display: inline;
-    margin-right: 50px; auto;
-    text-align:center;
+    margin-right: 50px;
+    
 }
 a {
     text-decoration: none;
     color: #999;
+    text-align:center;
 }
 a:hover {
     font-weight: bold;

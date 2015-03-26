@@ -2,7 +2,7 @@
 if(isset($_POST['email'])) {
      
     // CHANGE THE TWO LINES BELOW
-    $email_to = "you@yourdomain.com";
+    $email_to = "spontandom@gmail.com";
      
     $email_subject = "website html form submissions";
      
@@ -72,7 +72,7 @@ $headers = 'From: '.$email_from."\r\n".
  
 <!-- place your own success html below -->
  
-Thank you for contacting us. We will be in touch with you very soon.
+Thank you for contacting me. I will be in touch shortly!
  
 <?php
 }

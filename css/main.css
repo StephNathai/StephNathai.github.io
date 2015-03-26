@@ -23,9 +23,6 @@ a {
 a:hover {
     font-weight: bold;
     text-decoration: underline;
-}
-a:visited {
-  color: #404040;  
     
 }
 h1 {

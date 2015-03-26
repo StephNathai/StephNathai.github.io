@@ -1,3 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+a:visited
+{
+color:#FF0000
+}
+</style>
+</head>
+
 body {
     margin: 60px auto;
     width: 70%;
@@ -23,10 +34,6 @@ a {
 a:hover {
     font-weight: bold;
     text-decoration: underline;
-    
-}
-a:visited {
-    color: #FF0000
 }
 
 h1 {

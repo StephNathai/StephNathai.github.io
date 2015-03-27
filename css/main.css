@@ -12,15 +12,34 @@ nav ul li, footer ul li {
     margin-right: 70px;
 	
 }
-a: {
-    text-decoration: none;
-    color: #404040;
-    font-weight: bold;
-
+/* current link */
+a {
+	color: #404040;
+	text-decoration: underline;
 }
 
+/* unvisited link */
+a:link {
+	color: #404040;
+	text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+	color: #A0A0A0 ;
+	text-decoration: none;
+}
+
+/* mouse over link */
 a:hover {
-    text-decoration: none;
+	color: #FF6699;
+	text-decoration: none;
+}
+
+/* selected link */
+a:active {
+	color: #FF0066;
+	text-decoration: none;
 }
 
 h1 {

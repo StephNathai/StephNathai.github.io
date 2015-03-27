@@ -17,10 +17,7 @@ a: {
     color: #404040;
 
 }
-a:visited {
-    text-decoration: none;
-    color: #404040;    
-}
+
 a:hover {
     font-weight: bold;
     text-decoration: none;

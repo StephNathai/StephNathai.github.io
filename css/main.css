@@ -18,7 +18,8 @@ a: {
 
 }
 a:visited {
-    color: #66FF00;    
+    text-decoration: none;
+    color: #404040;    
 }
 a:hover {
     font-weight: bold;

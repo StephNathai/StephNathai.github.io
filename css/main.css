@@ -4,10 +4,10 @@ body {
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    padding: 10px
+    padding: 0px
     list-style: none;
-    font-weight: bold;
-    text-align:justify;
+  
+ 
    
 }
 nav ul li, footer ul li {

@@ -5,7 +5,7 @@ body {
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     text-align:center;
-    padding-left: 60px;
+    padding-left: 70px;
 }
 nav ul li, footer ul li {
     display: inline;

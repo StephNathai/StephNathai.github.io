@@ -22,7 +22,7 @@ a {
 /* unvisited link */
 a:link {
 	color: #404040;
-	text-decoration: none;
+	text-decoration: underline;
 }
 
 /* visited link */

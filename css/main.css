@@ -15,10 +15,7 @@ nav ul li, footer ul li {
 a: {
     text-decoration: underline;
     color: #404040;
-}
-a:link {
-    text-decoration: none;
-    color: #989898;
+
 }
 a:visited {
     color: #66FF00;    

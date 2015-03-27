@@ -7,7 +7,7 @@ nav ul, footer ul {
     padding: 10px
     list-style: none;
     font-weight: bold;
-    text-align:inherit;
+    text-align:justify;
    
 }
 nav ul li, footer ul li {

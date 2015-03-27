@@ -5,6 +5,7 @@ body {
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     text-align:center;
+    padding-left: 50px;
 }
 nav ul li, footer ul li {
     display: inline;
@@ -42,7 +43,6 @@ footer {
 ul.posts { 
     margin: 20px auto 40px; 
     font-size: 1.5em;
-    text-align:center;
 }
 
 ul.posts li {

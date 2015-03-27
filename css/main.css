@@ -4,8 +4,6 @@ body {
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    list-style: none;
-    padding: 0px;
     text-align:center;
 }
 nav ul li, footer ul li {

@@ -1,6 +1,6 @@
 body {
 	position: relative;
-	margin: 0 0 100px;
+	margin: 40px auto;
 	padding: 25px;
 	min-height: 100%;
 }
@@ -62,7 +62,6 @@ p {
 
 #footer {
     border-top: 1px solid #d5d5d5;
-    position: absolute;
 
 
 }

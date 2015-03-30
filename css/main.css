@@ -5,13 +5,13 @@ body {
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     text-align:center;
-    padding-left: 50px;
+    padding-left: 30px;
     width: 100%;
     
 }
 nav ul li, footer ul li {
     display: inline;
-    margin-right: 70px;
+    margin-right: 30px;
     width: 100%;
 	
 }

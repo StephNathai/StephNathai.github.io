@@ -62,9 +62,9 @@ p {
 
 #footer {
     border-top: 1px solid #d5d5d5;
-    position: absolute;
-    margin: 0 auto;
-    padding-top: 20px;
+    position: fixed;
+
+
 
     
 

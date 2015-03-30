@@ -62,9 +62,11 @@ p {
 
 #footer {
     border-top: 1px solid #d5d5d5;
-    position: relative;
-    
-    
+    position: absolute;
+    bottom: 0;
+    width: 644px;
+    height: 20px;
+    margin: 0 auto;
 
 }
 

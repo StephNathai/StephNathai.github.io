@@ -6,11 +6,13 @@ nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     text-align:center;
     padding-left: 50px;
+    width: 100%;
     
 }
 nav ul li, footer ul li {
     display: inline;
     margin-right: 70px;
+    width: 100%;
 	
 }
 /* current link */

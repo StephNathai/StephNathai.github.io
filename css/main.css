@@ -1,6 +1,7 @@
-body {
+html, body {
 	margin: 40px auto;
 	width: 100%;
+	height: 100%;
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
@@ -59,9 +60,10 @@ p {
     line-height: 1.4em;
     color: #333;
 }
-footer {
+#footer {
     border-top: 1px solid #d5d5d5;
-
+    height: 330px;
+	position: relative;
 }
 
 ul.posts { 
@@ -96,5 +98,16 @@ ul.posts li {
 #section3 {
 	float: center;
 	color: #383838;
+}
+
+#container {
+min-height: 100%;
+margin-bottom: -330px;
+position: relative;
+}
+
+.clearfooter {
+height: 330px;
+clear: both;
 }
 

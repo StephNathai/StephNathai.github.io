@@ -83,7 +83,7 @@ ul.posts li {
 #section1 {
 	width: 500px;
 	float: left;
-	padding: 10px;
+	padding: 0px 10px 0px 10px;
 	color: #383838;
 	text-align: justify;
 }
@@ -91,7 +91,7 @@ ul.posts li {
 #section2 {
 	width: 300px;
 	float: right;
-	padding: 10px;
+	padding: 0px 10px 0px 10px;
 }
 
 #section3 {

@@ -64,6 +64,9 @@ p {
     border-top: 1px solid #d5d5d5;
     height: 330px;
 	position: relative;
+	float: right;
+	padding-left: 70px;
+	padding-right: 70px;
 }
 
 ul.posts { 

@@ -112,6 +112,15 @@ position: relative;
 	padding-left: 70px;
 	margin: 70px;
 }
+
+#footer2 {
+    border-top: 1px solid #d5d5d5;
+    height: 100px;
+	position: relative;
+	padding-left: 70px;
+	margin: 70px;
+}
+
 .clearfooter {
 height: 100px;
 clear: both;

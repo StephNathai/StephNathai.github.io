@@ -1,7 +1,7 @@
 body {
 	margin: 20px auto;
 	width: 100%;
-	height: 30% auto;
+	height: 30%;
 }
 
 .currentLinkColor a{
@@ -96,7 +96,7 @@ div.wholeWrap {
 div.footer {
   border-top: 1px solid #d5d5d5;
   height: 100px;
-	position: right;
+	position: relative;
 	padding-left: 70px;
 	margin: 70px;
 	clear: both;

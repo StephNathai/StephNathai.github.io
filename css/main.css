@@ -10,10 +10,13 @@ body {
 
 .resume-h2-1 {
 	text-align: center;
+	margin-top: 8%;
+
 }
 
 .resume-h2-2 {
 	text-align: center;
+	margin-top: 5%;
 }
 
 h1 {
@@ -64,6 +67,7 @@ div.section1 {
 	padding: 0px 10px 0px 10px;
 	color: #383838;
 	text-align: justify;
+	margin-top: 5%;
 }
 
 div.section1 a {
@@ -79,6 +83,7 @@ div.section2 {
 	float: right;
 	padding: 0px 10px 0px 10px;
 	height: 350px;
+	margin-top: 5%;
 
 }
 
@@ -105,4 +110,14 @@ div.footer {
 
 div.footer img {
 	border:0;
+}
+
+a.project1 {
+	color: #004700;
+}
+
+h4.project1 {
+	float: left;
+	padding: 0px 10px 0px 10px;
+	margin-top: 8%;
 }

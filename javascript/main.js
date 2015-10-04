@@ -78,7 +78,16 @@ var clock = function(){
 }
 $(document).on("load", clock());
 
+// PROJECT 6
+
+  setInterval(function(){
+    var shiftX = Math.random()*20;
+    var shiftY = Math.random()*20;
+    $('#left-pupil, #right-pupil').velocity({translateX: shiftX, translateY: shiftY}, 1000)//speed of animation
+  }, 500) //being called every half second
+
 //
+
 
 
 });

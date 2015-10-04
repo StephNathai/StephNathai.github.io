@@ -55,6 +55,10 @@ a {
 	color: #A0A0A0;
 }
 
+a.project-image {
+	position: absolute;
+}
+
 p {
   font-size: 1.5em;
   line-height: 1.4em;
@@ -107,11 +111,7 @@ div.footer {
 	top:70%;
 }
 
-a.project1 {
-	color: #004700;
-}
-
-a.project2 {
+a.project1 a.project2 {
 	color: #004700;
 }
 
@@ -119,10 +119,15 @@ div.projects {
 	height: 68%;
 	position: absolute;
 	width: 99%;
+	background-color: pink;
 }
 
 div.scroll {
 	overflow: auto;
+}
+
+div.border {
+	border-style: solid;
 }
 
 div.project1 {
@@ -132,16 +137,29 @@ div.project1 {
 	margin-right: 2%;
 	text-align: justify;
 	top: 4%;
-	height: 100%;
+	height: 95%;
+	background-color: white;
 }
 
 div.project2 {
-	position: absolute;
+	position: relative;
 	width: 46%;
 	margin-left: 52%;
 	margin-right: 2%;
 	top: 4%;
-	height: 100%;
+	height: 95%;
+	float: left;
+	background-color: white;
+}
+div.project3 {
+	position: relative;
+	width: 46%;
+	margin-left: 2%;
+	margin-right: 2%;
+	margin-top: 4%;
+	height: 95%;
+	float: left;
+	background-color: white;
 }
 
 .text_box1 a {
@@ -193,6 +211,98 @@ img.project {
 	height: 80%;
 	width: 100%;
 }
+
+/* PROJECT 3 */
+
+table.translator {
+  border: 3px solid black;
+  width: 20%;
+}
+
+th {
+  padding: 8px;
+  border-bottom:1px solid black;
+  text-decoration: underline;
+}
+
+td {
+  padding: 8px;
+  border-bottom:1px solid black;
+}
+
+.left-column-border {
+  border-right: 1px solid black;
+  text-align: center;
+}
+
+#no-bottom-border {
+  border-bottom: none;
+}
+
+input#inputText {
+  width: 95%;
+  height: 30px;
+  margin: 5px auto;
+  font-size: 15px;
+  border-style: inset;
+  border-width: medium;
+
+}
+input#outputText {
+  width: 95%;
+  height: 30px;
+  margin: 5px auto;
+  font-size: 15px;
+  border-style: outset;
+  border-width: medium;
+}
+
+p.project3 {
+  margin-bottom: 5px;
+	font-size: 16px;
+}
+
+.viewResult-margin {
+  margin-top: 30px;
+}
+
+div.project-3-left-side {
+  position: absolute;
+  width: 25%;
+}
+div.project-3-right-side {
+  position: relative;
+  top: 20%;
+  width: 60%;
+  height: 60%;
+	float: right;
+
+}
+/* END OF PROJECT 3*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* ----------- iPhone 4 and 4S ----------- */
 

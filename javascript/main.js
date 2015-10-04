@@ -1,4 +1,9 @@
-function biggger(){
-$('.img').css("width":"150%");
-$('.img').css("height":"150%");
-}
+ $(document).ready(function() {
+
+
+  $('hr').click(function(){
+     $('hr').effect( "shake", {times:4}, 1000 );
+  });
+
+
+});

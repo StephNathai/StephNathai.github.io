@@ -3,6 +3,7 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway);
 @import url(https://fonts.googleapis.com/css?family=Lato);
 
+/* INDEX PAGE*/
 html, body {
 	position: absolute;
 	margin:0;
@@ -17,16 +18,6 @@ html, body {
 
 .currentLinkColor a{
 	color: #FF0099;
-}
-
-.resume-h2-1 {
-	text-align: center;
-	margin-top: 8%;
-}
-
-.resume-h2-2 {
-	text-align: center;
-	margin-top: 5%;
 }
 
 h1 {
@@ -56,13 +47,8 @@ a {
 }
 
 a.project-image {
-	position: absolute;
-}
-
-p {
-  font-size: 1.5em;
-  line-height: 1.4em;
-  color: #333;
+	position: relative;
+	height: 95%;
 }
 
 div.section1 {
@@ -72,7 +58,7 @@ div.section1 {
 	margin-right: 2%;
 	text-align: justify;
 	top: 4%;
-	height: 100%;
+	height: 95%;
 }
 
 div.section1 a {
@@ -89,7 +75,7 @@ div.section2 {
 	margin-left: 2%;
 	margin-right: 18%;
 	top: 4%;
-	height: 100%;
+	height: 95%;
 	float: right;
 }
 
@@ -102,64 +88,14 @@ img.main {
 div.footer {
   height: 50px;
 	position: relative;
-	margin-top: 20px;
+	margin-top: 2%;
 	clear: both;
 	text-align: center;
 	margin-right: 5%;
 	margin-left: 5%;
 	width: 90%;
 	top:70%;
-}
-
-a.project1 a.project2 {
-	color: #004700;
-}
-
-div.projects {
-	height: 68%;
-	position: absolute;
-	width: 99%;
-}
-
-div.scroll {
-	overflow: auto;
-}
-
-div.border {
-	border-style: solid;
-}
-
-div.project1 {
-	position: absolute;
-	width: 46%;
-	margin-left: 2%;
-	margin-right: 2%;
-	text-align: justify;
-	top: 4%;
-	height: 95%;
-}
-
-div.project2 {
-	position: relative;
-	width: 46%;
-	margin-left: 52%;
-	margin-right: 2%;
-	top: 4%;
-	height: 95%;
-	float: left;
-}
-div.project3 {
-	position: relative;
-	width: 46%;
-	margin-left: 2%;
-	margin-right: 2%;
-	margin-top: 4%;
-	height: 95%;
-	float: left;
-}
-
-.text_box1 a {
-	color: black;
+	margin-bottom: 1%;
 }
 
 div.header_title {
@@ -189,7 +125,7 @@ hr.header:after {
 }
 
 .font {
-	font-family:'Lato', 'Times New Roman', serif;
+	font-family:'Lato', 'Times New Roman', sans-serif;
 }
 
 hr.footer {
@@ -203,15 +139,97 @@ hr.footer {
 	width: 50%;
 }
 
+/* RESUME PAGE*/
+.resume-h2-1 {
+	text-align: center;
+	margin-top: 8%;
+}
+
+.resume-h2-2 {
+	text-align: center;
+	margin-top: 5%;
+}
+
+/* PROJECT PAGE*/
+
+a.project1 a.project2 {
+	color: #004700;
+}
+
+
+
+div.projects {
+	height: 65%;
+	position: absolute;
+	width: 100%;
+}
+
+div.scroll {
+	overflow: auto;
+}
+
+div.border {
+	border-style: solid;
+	border-radius: 10px;
+	border-width: thin;
+}
+
+div.project1 {
+	position: absolute;
+	width: 48%;
+	margin-left: 1%;
+	text-align: justify;
+	top: 4%;
+	height: 82%;
+}
+
+div.project2 {
+	position: absolute;
+	width: 48%;
+	margin-left: 51%;
+	margin-right: 1%;
+	top: 4%;
+	height: 82%;
+}
+div.project3 {
+	position: absolute;
+	width: 48%;
+	margin-left: 1%;
+	top: 90%;
+	float: left;
+	height: 82%;
+}
+
+div.project4 {
+	position: absolute;
+	width: 48%;
+	margin-left: 51%;
+	margin-right: 1%;
+	top: 90%;
+	height: 82%;
+}
+
+div.project5 {
+	position: absolute;
+	width: 48%;
+	margin-left: 1%;
+	top: 176%;
+	float: left;
+	height: 82%;
+}
+
+.text_box1 a {
+	color: black;
+}
+
 img.project {
-	height: 80%;
 	width: 100%;
 }
 
 /* PROJECT 3 */
 
 table.translator {
-  border: 3px solid black;
+  border: solid black;
   width: 20%;
 }
 
@@ -237,7 +255,7 @@ td {
 
 input#inputText {
   width: 95%;
-  height: 30px;
+  height: 20px;
   margin: 5px auto;
   font-size: 15px;
   border-style: inset;
@@ -246,7 +264,7 @@ input#inputText {
 }
 input#outputText {
   width: 95%;
-  height: 30px;
+  height: 20px;
   margin: 5px auto;
   font-size: 15px;
   border-style: outset;
@@ -265,19 +283,69 @@ p.project3 {
 div.project-3-left-side {
   position: absolute;
   width: 25%;
+	margin-left: 2%;
 }
 div.project-3-right-side {
   position: relative;
-  top: 20%;
+  top: 10%;
   width: 60%;
   height: 60%;
 	float: right;
+	margin-right: 2%;
 
 }
-/* END OF PROJECT 3*/
+/* PROJECT 4*/
 
 
+.prompt-weather {
+  font-size: 1.2em;
+  margin-top: 4em;
+}
 
+.form-weather {
+  color: #000;
+  width: 290px;
+  margin: 0 auto;
+}
+
+.date-weather {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+}
+.weather {
+	text-align: center;
+}
+
+input.input-weather {
+	width: 95%;
+	height: 20px;
+	margin: 5px auto;
+	font-size: 15px;
+	border-style: inset;
+	border-width: medium;
+}
+/* PROJECT 5*/
+
+div.clock img {
+  position: absolute;
+  left: 50%;
+  margin-left: -125px;
+  /* Check out http://easings.net/ for more info on this!*/
+  -webkit-transition: all 600ms cubic-bezier(0.215, 0.61, 0.355, 1);
+  transition: all 600ms cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+div.clock {
+  width: 250px;
+  height: 250px;
+  border-radius:100%;
+  border: deeppink 5px solid;
+  margin:8% auto;
+	background-color: black;
+}
+#second-hand {
+  transform: rotate(1deg);
+}
 
 
 

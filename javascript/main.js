@@ -1,6 +1,6 @@
  $(document).ready(function() {
 
-
+   // hr shake
   $('hr').click(function(){
      $('hr').effect( "shake", {times:4}, 1000 );
   });
@@ -12,8 +12,7 @@
 
   inputText.on('keyup', function(event){
     event.preventDefault();
-    var inputTextValue = $(this).val().toLowerCase();//turns input into lower case
-     //this copies text from input and puts it in output
+    var inputTextValue = $(this).val().toLowerCase();
 
      inputTextValue = inputTextValue.replace('command', '\u2318');
      inputTextValue = inputTextValue.replace('tab', '\u21E5');
@@ -34,7 +33,52 @@
      var outputTextValue = outputText.val(inputTextValue);
 
   });
-// END OF PROJECT 3//
+// PROJECT 4//
+
+$('.button-weather').click(function(event) {
+    event.preventDefault();
+    var city = $(".input-weather").val();
+    var cityTemp = event.currentTarget.dataset.temp;
+
+    $.ajax({
+      url: "http://api.openweathermap.org/data/2.5/weather?q=" + city,
+      method: 'GET',
+      data: {temp: cityTemp},
+      success: function(data, status, xhr) {
+        console.log("Data successful", data.main);
+        $('#forecast').text("In " + city + ", it's " + ((((data.main.temp - 273) * 1.8) + 32).toFixed(2)) + " degrees F");
+      },
+      error: function(xhr, status, error) {
+        console.log("yikes", error);
+      }
+    });
+
+
+  });
+// PROJECT 5
+
+var minuteHand = $('#minute-hand');
+var secondHand = $('#second-hand');
+var hourHand = $('#hour-hand');
+var date
+
+var clock = function(){
+  var secondDegs = 0;
+  var minuteDegs = 0;
+  var hourDegs = 0;
+  var time = window.setInterval(function(){
+    secondDegs += 6;
+    minuteDegs += 1/10;
+    hourDegs += 1/120;
+    secondHand.css("transform", "rotate(" + secondDegs + "deg)");
+    minuteHand.css("transform", "rotate(" + minuteDegs + "deg)");
+    hourHand.css("transform", "rotate(" + hourDegs + "deg)");
+  }, 1000);
+
+}
+$(document).on("load", clock());
+
+//
 
 
 });

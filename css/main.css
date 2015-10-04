@@ -235,6 +235,12 @@ img.project {
 	width: 100%;
 }
 
+span.bold-caps {
+	font-weight: bolder;
+	font-variant: small-caps;
+	font-size: 20px;
+}
+
 /* PROJECT 3 */
 
 table.translator {
@@ -362,6 +368,8 @@ input.input-weather {
 	border-style: inset;
 	border-width: medium;
 }
+
+/* PROJECT 7*/
 
 
 

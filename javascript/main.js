@@ -86,8 +86,16 @@ $(document).on("load", clock());
     $('#left-pupil, #right-pupil').velocity({translateX: shiftX, translateY: shiftY}, 1000)//speed of animation
   }, 500) //being called every half second
 
-//
+// PROJECT DIV BORDER ENTER/EXIT
 
+  $('div.border')
+    .mouseenter(function() {
+       $(this).css({"border-width":"3px"});
+    })
+    .mouseleave(function() {
+       $(this).css({"border-width":"thin"});
+    });
+//
 
 
 });

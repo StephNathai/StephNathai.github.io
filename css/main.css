@@ -262,6 +262,26 @@ div.project6 {
 	background-color: white;
 }
 
+div.project7 {
+	position: absolute;
+	width: 44%;
+	margin-left: 5%;
+	top: 262%;
+	float: left;
+	height: 82%;
+	background-color: white;
+}
+
+div.project8 {
+	position: absolute;
+	width: 44%;
+	margin-left: 51%;
+	top: 262%;
+	float: left;
+	height: 82%;
+	background-color: white;
+}
+
 .text_box1 a {
 	color: black;
 }

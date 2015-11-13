@@ -72,6 +72,7 @@ div.section1 a {
 
 div.section1 h2 {
 	text-align: center;
+	margin-top: 0px;
 }
 
 div.section2 {
@@ -136,6 +137,7 @@ hr.header:after {
 
 .font {
 	font-family:'Lato', 'Times New Roman', sans-serif;
+	margin: 5px;
 }
 
 p.font-papyrus {
@@ -425,4 +427,55 @@ input.input-weather {
 	border-width: medium;
 }
 
-/* PROJECT 7*/
+/*@media screen and (min-width: 375px) {
+    div.header {
+      top: 9%;
+    }
+		div.section1 {
+			width: 50%;
+			height: 42%;
+			margin-left: 0%;
+		}
+		div.section2 {
+			width: 42%;
+			margin-right: 0%;
+		}
+		img.main {
+			width: 330px;
+			height: 430px;
+		}
+		div.projects-main {
+			height: 63%;
+			top: 20%;
+		}
+		div.project1 {
+			height: 36%;
+		}
+		div.project2 {
+			height: 36%;
+		}
+		div.project3 {
+			height: 36%;
+			top: 42%;
+		}
+		div.project4 {
+			height: 36%;
+			top: 42%;
+		}
+		div.project5 {
+			height: 36%;
+			top: 80%;
+		}
+		div.project6 {
+			height: 36%;
+			top: 80%;
+		}
+		div.project7 {
+			height: 36%;
+			top: 118%;
+		}
+		div.project8 {
+			height: 36%;
+			top: 118%;
+		}
+}*/

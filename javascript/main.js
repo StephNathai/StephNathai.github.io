@@ -41,10 +41,10 @@ $('.button-weather').click(function(event) {
     var cityTemp = event.currentTarget.dataset.temp;
 
     $.ajax({
-      url: "http://api.openweathermap.org/data/2.5/weather?q=" + city,
+      url: "http://api.openweathermap.org/data/2.5/weather?q=" + city + "&APPID=c77516d3ecaeb55d83a1ea355bc85dca",
       method: 'GET',
       data: {temp: cityTemp},
-      success: function(data, status, xhr) {
+      success: function(data, status, xr) {
         console.log("Data successful", data.main);
         $('#forecast').text("In " + city + ", it's " + ((((data.main.temp - 273) * 1.8) + 32).toFixed(2)) + " degrees F");
       },

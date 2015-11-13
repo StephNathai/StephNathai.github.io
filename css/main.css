@@ -138,6 +138,7 @@ hr.header:after {
 .font {
 	font-family:'Lato', 'Times New Roman', sans-serif;
 	margin: 5px;
+	text-align: left;
 }
 
 p.font-papyrus {
@@ -284,18 +285,30 @@ div.project8 {
 	background-color: white;
 }
 
+div.project9 {
+	position: absolute;
+	width: 44%;
+	margin-left: 5%;
+	top: 348%;
+	float: left;
+	height: 82%;
+	background-color: white;
+}
+
 .text_box1 a {
 	color: black;
 }
 
 img.project {
 	width: 100%;
+	margin-top: 10px;
 }
 
 span.bold-caps {
 	font-weight: bolder;
 	font-variant: small-caps;
 	font-size: 20px;
+	/*text-decoration: underline;*/
 }
 
 /* PROJECT 3 */
@@ -303,6 +316,8 @@ span.bold-caps {
 table.translator {
   border: solid black;
   width: 20%;
+	margin: 2%;
+
 }
 
 th {
@@ -390,6 +405,7 @@ div.clock {
   border: deeppink 5px solid;
   margin:8% auto;
 	background-color: black;
+	margin-top: 0;
 }
 #second-hand {
   transform: rotate(1deg);
@@ -399,7 +415,7 @@ div.clock {
 
 .prompt-weather {
   font-size: 1.2em;
-  margin-top: 4em;
+  margin-top: 5%;
 	font-family: "Papyrus", serif;
 }
 

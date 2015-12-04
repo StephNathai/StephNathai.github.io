@@ -9,7 +9,7 @@ html, body {
 	margin:0;
   padding:0;
   height:100%;
-  min-height: 100%;
+  min-height: 765px;
 	width:100%;
 	overflow-x: hidden;
 	background-color: #FFEEFB;
@@ -189,6 +189,15 @@ div.projects {
 	right: 10%;
 }
 
+embed {
+	height: 55%;
+	position: absolute;
+	width: 80%;
+	top: 30%;
+	left: 10%;
+	right: 10%;
+}
+
 div.projects-main {
 	height: 57%;
 	position: absolute;
@@ -289,6 +298,16 @@ div.project9 {
 	position: absolute;
 	width: 44%;
 	margin-left: 5%;
+	top: 348%;
+	float: left;
+	height: 82%;
+	background-color: white;
+}
+
+div.project10 {
+	position: absolute;
+	width: 44%;
+	margin-left: 51%;
 	top: 348%;
 	float: left;
 	height: 82%;
@@ -443,7 +462,7 @@ input.input-weather {
 	border-width: medium;
 }
 
-/*@media screen and (min-width: 375px) {
+@media only screen and (max-device-width: 375px) {
     div.header {
       top: 9%;
     }
@@ -451,6 +470,7 @@ input.input-weather {
 			width: 50%;
 			height: 42%;
 			margin-left: 0%;
+			top: 8%;
 		}
 		div.section2 {
 			width: 42%;
@@ -494,4 +514,75 @@ input.input-weather {
 			height: 36%;
 			top: 118%;
 		}
-}*/
+		div.project9 {
+			height: 36%;
+			top: 156%;
+		}
+		div.project10 {
+			height: 36%;
+			top: 156%;
+		}
+		embed {
+			top:22%;
+			height:60%;
+		}
+}
+
+@media only screen and (max-device-width: 768px) {
+  div.projects-main {
+    top: 20%;
+		height: 60%;
+  }
+}
+
+@media only screen and (max-device-width: 355px) {
+  div.projects-main {
+    top: 18%;
+		height: 65%;
+  }
+}
+
+@media only screen and (max-device-width: 800px) {
+  div.projects-main {
+    top: 20%;
+		height: 60%;
+  }
+	div.project1 {
+		height: 36%;
+	}
+	div.project2 {
+		height: 36%;
+	}
+	div.project3 {
+		height: 36%;
+		top: 42%;
+	}
+	div.project4 {
+		height: 36%;
+		top: 42%;
+	}
+	div.project5 {
+		height: 36%;
+		top: 80%;
+	}
+	div.project6 {
+		height: 36%;
+		top: 80%;
+	}
+	div.project7 {
+		height: 36%;
+		top: 118%;
+	}
+	div.project8 {
+		height: 36%;
+		top: 118%;
+	}
+	div.project9 {
+		height: 36%;
+		top: 156%;
+	}
+	div.project10 {
+		height: 36%;
+		top: 156%;
+	}
+}

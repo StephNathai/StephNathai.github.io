@@ -64,7 +64,7 @@ div.section1 {
 	margin-top: 0px;
 	text-align: justify;
 	top: 4%;
-	height: 84%;
+	height: 75%;
 }
 
 div.section1 a {
@@ -82,7 +82,7 @@ div.section2 {
 	margin-left: 2%;
 	margin-right: 18%;
 	top: 4%;
-	height: 84%;
+	height: 80%;
 	float: right;
 }
 
@@ -142,10 +142,10 @@ hr.header:after {
 	text-align: left;
 }
 
-p.font-papyrus {
+div.font-papyrus {
 	font-family: 'Papyrus', serif;
 	font-size: 17px;
-
+	line-height: 1.5rem;
 }
 
 hr.footer {

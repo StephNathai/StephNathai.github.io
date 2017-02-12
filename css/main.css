@@ -12,7 +12,7 @@ html, body {
   min-height: 765px;
 	width:100%;
 	overflow-x: hidden;
-	background-color: #FFEEFB;
+	background-color: #FFFFFF;
 
 }
 
@@ -123,6 +123,7 @@ hr.header {
 	height: 10px;
 	margin-bottom: 0px;
 	width: 75%;
+	margin-top: 0px;
 }
 
 hr.header:after {
@@ -132,7 +133,7 @@ hr.header:after {
   top: -0.7em;
   font-size: 1.5em;
   padding: 0 0.25em;
-  background: #FFEEFB;
+  background: #FFFFFF;
 
 }
 
@@ -157,6 +158,7 @@ hr.footer {
 	height: 10px;
 	margin-bottom: 0px;
 	width: 50%;
+	margin-top: 0px;
 }
 
 /* RESUME PAGE*/

@@ -178,10 +178,12 @@ div.footer {
   div.wrapper .right-container img {
     width: 80%; } }
 @media all and (min-width: 620px) and (max-width: 760px) {
-  div.wrapper .left-container h2 {
-    margin-top: 50%; }
-  div.wrapper .right-container img {
-    width: 80%; }
+  div.wrapper {
+    overflow: scroll; }
+    div.wrapper .left-container h2 {
+      margin-top: 50%; }
+    div.wrapper .right-container img {
+      width: 80%; }
 
   div.project-wrapper .project-container {
     width: 100%;

@@ -287,6 +287,8 @@ div.footer {
 
 @media all and (min-width: $x-small) and (max-width: $small) {
 	div.wrapper {
+		overflow: scroll;
+
 		.left-container {
 			h2 {
 				margin-top: 50%;

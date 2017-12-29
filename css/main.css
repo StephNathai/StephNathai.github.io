@@ -210,6 +210,7 @@ div.footer {
 
   div.project-wrapper .project-container {
     width: 100%;
-    margin-bottom: 5%; } }
+    margin-bottom: 5%;
+    height: 300px; } }
 
 /*# sourceMappingURL=main.css.map */

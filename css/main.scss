@@ -25,7 +25,7 @@ div.header {
 	margin-bottom: 30px;
 
 	.header_title {
-		font-size: 50px;
+		font-size: 3rem;
 		text-align: center;
 		margin: 15px 5px;
 	}
@@ -57,7 +57,7 @@ div.header {
 		margin-right: 10%;
 		font-family:'Raleway', 'Times New Roman', serif;
 		font-variant: small-caps;
-		font-size: 19px;
+		font-size: 1.3rem;
 
 		&:last-child {
 			margin-right: 0px;
@@ -139,7 +139,7 @@ div.project-wrapper {
 		.heading {
 			font-weight: bolder;
 			font-variant: small-caps;
-			font-size: 20px;
+			font-size: 1.25rem;
 		}
 
 		img {
@@ -154,7 +154,7 @@ div.project-wrapper {
 
 		input {
 			width: 90%;
-			font-size: 15px;
+			font-size: 1rem;
 			border-style: inset;
 			border-width: medium;
 		}
@@ -306,12 +306,20 @@ div.footer {
 @media all and (max-width: $x-small) {
 	div.header {
 		.header_title {
-			font-size: 40px;
+			font-size: 2.1rem;
 			text-align: center;
 		}
 
 		hr:after {
-			top: 67px
+			top: 60px
+		}
+
+		ul {
+			padding: 0px;
+		}
+
+		li {
+			font-size: 1.2rem;
 		}
 	}
 

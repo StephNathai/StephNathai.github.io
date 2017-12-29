@@ -226,6 +226,10 @@ div.footer {
 
 	.icon {
 		margin-right: 20px;
+
+		&:last-child {
+			margin-right: 0px;
+		}
 	}
 
 	hr {

@@ -146,6 +146,8 @@ div.footer {
   text-align: center; }
   div.footer .icon {
     margin-right: 20px; }
+    div.footer .icon:last-child {
+      margin-right: 0px; }
   div.footer hr {
     border: none;
     border-top: medium double #333;

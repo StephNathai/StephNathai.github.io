@@ -197,12 +197,13 @@ div.footer {
 
   div.wrapper {
     display: block;
-    overflow: scroll; }
+    overflow: scroll;
+    height: 60%; }
     div.wrapper .left-container,
     div.wrapper .right-container {
       width: 100%; }
     div.wrapper .left-container h2 {
-      margin-top: 5%; }
+      margin-top: 0px; }
     div.wrapper .left-container div {
       margin-bottom: 5%; }
     div.wrapper .right-container img {

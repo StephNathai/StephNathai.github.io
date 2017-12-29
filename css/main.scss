@@ -326,6 +326,7 @@ div.footer {
 	div.wrapper {
 		display: block;
 		overflow: scroll;
+		height: 60%;
 
 		.left-container,
 		.right-container {
@@ -334,7 +335,7 @@ div.footer {
 
 		.left-container {
 			h2 {
-				margin-top: 5%;
+				margin-top: 0px;
 			}
 
 			div {

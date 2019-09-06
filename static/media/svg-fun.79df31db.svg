@@ -1,0 +1,31 @@
+<svg>
+  <g className="svg-monkey">
+    <circle cx="75" cy="120" r="60" fill="#F8DBBE"/>
+    <circle cx="330" cy="120" r="60" fill="#F8DBBE"/>
+    <circle cx="200" cy="160" r="140" fill="#5B2E01"/>
+    <circle cx="150" cy="130" r="40" fill="#FFFFFF" stroke = "#000000" stroke-width="4"/>
+    <circle cx="250" cy="130" r="40" fill="#FFFFFF" stroke = "#000000" stroke-width="4"/>
+    <circle className="left-pupil" cx="150" cy="130" r="20" fill="#000000"/>
+    <circle className="right-pupil" cx="250" cy="130" r="20" fill="#000000"/>
+    <ellipse cx="200" cy="220" rx="150" ry="80" fill="#F8DBBE" />
+    <rect x="100" y="220" width="200" height="8" fill="#E4B17E"/>
+  </g>
+  <g className="svg-circle">
+    <circle cx="160" cy="500" r="140" fill="#FF0000"/>
+    <circle cx="160" cy="500" r="120" fill ="#FF9900"/>
+    <circle cx="160" cy="500" r="100" fill="#FFFF00"/>
+    <circle cx="160" cy="500" r="80" fill="#00FF00"/>
+    <circle cx="160" cy="500" r="60" fill="#0000FF"/>
+    <circle cx="160" cy="500" r="40" fill="#660066"/>
+    <circle cx="160" cy="500" r="20" fill="#9900FF"/>
+  </g>
+  <g className="svg-rectangle">
+    <rect x="20" y="675" width="50" height="250" fill="#FF0000"/>
+    <rect x="60" y="675" width="50" height="250" fill="#FF9900"/>
+    <rect x="100" y="675" width="50" height="250" fill="#FFFF00"/>
+    <rect x="140" y="675" width="50" height="250" fill="#00FF00"/>
+    <rect x="180" y="675" width="50" height="250" fill="#0000FF"/>
+    <rect x="220" y="675" width="50" height="250" fill="#660066"/>
+    <rect x="260" y="675" width="50" height="250" fill="#9900FF"/>
+  </g>
+</svg>

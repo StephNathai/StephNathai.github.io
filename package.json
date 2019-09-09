@@ -1,7 +1,7 @@
 {
   "name": "my-app",
   "version": "0.1.0",
-  "homepage": "https://stephnathai.github.io",
+  "homepage": "https://stephnathai.com",
   "private": true,
   "dependencies": {
     "node-sass": "^4.12.0",

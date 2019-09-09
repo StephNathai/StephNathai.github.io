@@ -5,7 +5,7 @@ function LeftContent() {
   return(
     <div className="left-content">
       <h3>Hi, I'm Steph</h3>
-      <h4>Welcome to my page! I love programming, going on new adventures, and being a new momma! Contact me below for more info. Enjoy!</h4>
+      <h4>Welcome to my page! I love programming, going on new adventures, and being a new momma! Contact me below for more info. Enjoy!!</h4>
     </div>
   );
 }
